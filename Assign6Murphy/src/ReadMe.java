@@ -32,7 +32,7 @@ public class ReadMe {
 		
 		String path = buildPath() + "README.txt";
 		
-		try (BufferedReader br = new BufferedReader (new FileReader(buildPath() + "README.txt"))) {
+		try (BufferedReader br = new BufferedReader (new FileReader(path))) {
 			
 			out.println(path);
 			out.println();
